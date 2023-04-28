@@ -5,30 +5,28 @@
 .navbar{
     background-color: rgba(0, 0, 0, 0.612);   
     padding: 10px 10px 10px 50px;
-    display: flex;
+    
 }
 .navbar img{
     height: 100px;
 }
-.navbar .title h1{
-    color: lime;
-    margin-left: 300px;
-    margin-top: 30px;
-    font-family: sans-serif;
-}
+ 
 .links{
-    background-color: orange;
+    
     height: 20px;
-    padding: 15px;
+    padding: 5px;
     padding-left: 60px;
+    
 }
 .links ul {
     display: flex;
     text-decoration: none;
     list-style: none;
+    float: right;
+    margin-top: -50px;
 }
 .list{
-    padding-left: 120px;
+    padding-left: 25px;
 }
 .links ul li a{
     font-weight: 600;
